@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Social
 
 class ShowImageViewController: UIViewController {
 
@@ -18,13 +19,39 @@ class ShowImageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //set title for this view controller
-        title = selectedImage
+      
         
         // Do any additional setup after loading the view.
         if let imageToLoad = selectedImage{
             showImageView.image = UIImage(named: imageToLoad)
         }
+        
+        //set title for this view controller
+        title = selectedImage
+        
+        //add navigation bar button item to add social media
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(shareTapped))
+    }
+    
+    // in swift 4, selectror is not deprecated. But the implicit @objc is deprecated.
+
+    //Which means, that in such a case, you just need to add @objc in the func declaration
+    
+    
+    @objc func shareTapped() {
+        
+        let vc = UIActivityViewController(activityItems: [showImageView.image!], applicationActivities: nil)
+        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
+
+        present(vc, animated: true)
+        
+//        //if you want to add facebook kit (If you want twitter you just need to change forServiceType to twitter)
+//        if let vc = SLComposeViewController(forServiceType: SLServiceTypeFacebook){
+//            vc.setInitialText("Hi, I am shaikat. Look at this great picture")
+//            vc.add(showImageView.image!)
+//            vc.add(URL(string:"http:/www.photolib.noaa.gov/nssl"))
+//            present(vc, animated: true)
+//        }
     }
 
     override func didReceiveMemoryWarning() {
