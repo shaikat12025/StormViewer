@@ -12,6 +12,18 @@
 		92F4A95F20ADDC2C0000E6EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A95D20ADDC2C0000E6EC /* Main.storyboard */; };
 		92F4A96120ADDC2C0000E6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A96020ADDC2C0000E6EC /* Assets.xcassets */; };
 		92F4A96420ADDC2C0000E6EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A96220ADDC2C0000E6EC /* LaunchScreen.storyboard */; };
+		92F4A98320ADEDDE0000E6EC /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A97920ADED720000E6EC /* nssl0033.jpg */; };
+		92F4A98420ADEDE00000E6EC /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A97A20ADED720000E6EC /* nssl0034.jpg */; };
+		92F4A98520ADEDE30000E6EC /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A97B20ADED720000E6EC /* nssl0041.jpg */; };
+		92F4A98620ADEDE50000E6EC /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A97C20ADED720000E6EC /* nssl0042.jpg */; };
+		92F4A98720ADEDE80000E6EC /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A97D20ADED720000E6EC /* nssl0043.jpg */; };
+		92F4A98820ADEDEA0000E6EC /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A97E20ADED720000E6EC /* nssl0045.jpg */; };
+		92F4A98920ADEDED0000E6EC /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A97F20ADED720000E6EC /* nssl0046.jpg */; };
+		92F4A98A20ADEDEF0000E6EC /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A98020ADED720000E6EC /* nssl0049.jpg */; };
+		92F4A98B20ADEDF20000E6EC /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A98120ADED720000E6EC /* nssl0051.jpg */; };
+		92F4A98C20ADEDF40000E6EC /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 92F4A98220ADED720000E6EC /* nssl0091.jpg */; };
+		92F4A99020ADF1F90000E6EC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4A98F20ADF1F90000E6EC /* TableViewCell.swift */; };
+		92F4A99220ADF2670000E6EC /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F4A99120ADF2670000E6EC /* ShowImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		92F4A96020ADDC2C0000E6EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92F4A96320ADDC2C0000E6EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92F4A96520ADDC2C0000E6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92F4A97920ADED720000E6EC /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		92F4A97A20ADED720000E6EC /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
+		92F4A97B20ADED720000E6EC /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		92F4A97C20ADED720000E6EC /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		92F4A97D20ADED720000E6EC /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
+		92F4A97E20ADED720000E6EC /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
+		92F4A97F20ADED720000E6EC /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
+		92F4A98020ADED720000E6EC /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
+		92F4A98120ADED720000E6EC /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
+		92F4A98220ADED720000E6EC /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
+		92F4A98F20ADF1F90000E6EC /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		92F4A99120ADF2670000E6EC /* ShowImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +80,32 @@
 			children = (
 				92F4A95920ADDC2C0000E6EC /* AppDelegate.swift */,
 				92F4A95B20ADDC2C0000E6EC /* ViewController.swift */,
+				92F4A98F20ADF1F90000E6EC /* TableViewCell.swift */,
+				92F4A99120ADF2670000E6EC /* ShowImageViewController.swift */,
 				92F4A95D20ADDC2C0000E6EC /* Main.storyboard */,
 				92F4A96020ADDC2C0000E6EC /* Assets.xcassets */,
 				92F4A96220ADDC2C0000E6EC /* LaunchScreen.storyboard */,
 				92F4A96520ADDC2C0000E6EC /* Info.plist */,
+				92F4A97820ADED720000E6EC /* Content */,
 			);
 			path = StormViewer;
+			sourceTree = "<group>";
+		};
+		92F4A97820ADED720000E6EC /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				92F4A97920ADED720000E6EC /* nssl0033.jpg */,
+				92F4A97A20ADED720000E6EC /* nssl0034.jpg */,
+				92F4A97B20ADED720000E6EC /* nssl0041.jpg */,
+				92F4A97C20ADED720000E6EC /* nssl0042.jpg */,
+				92F4A97D20ADED720000E6EC /* nssl0043.jpg */,
+				92F4A97E20ADED720000E6EC /* nssl0045.jpg */,
+				92F4A97F20ADED720000E6EC /* nssl0046.jpg */,
+				92F4A98020ADED720000E6EC /* nssl0049.jpg */,
+				92F4A98120ADED720000E6EC /* nssl0051.jpg */,
+				92F4A98220ADED720000E6EC /* nssl0091.jpg */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +167,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F4A98420ADEDE00000E6EC /* nssl0034.jpg in Resources */,
+				92F4A98B20ADEDF20000E6EC /* nssl0051.jpg in Resources */,
 				92F4A96420ADDC2C0000E6EC /* LaunchScreen.storyboard in Resources */,
+				92F4A98720ADEDE80000E6EC /* nssl0043.jpg in Resources */,
+				92F4A98320ADEDDE0000E6EC /* nssl0033.jpg in Resources */,
+				92F4A98820ADEDEA0000E6EC /* nssl0045.jpg in Resources */,
+				92F4A98920ADEDED0000E6EC /* nssl0046.jpg in Resources */,
+				92F4A98A20ADEDEF0000E6EC /* nssl0049.jpg in Resources */,
+				92F4A98620ADEDE50000E6EC /* nssl0042.jpg in Resources */,
 				92F4A96120ADDC2C0000E6EC /* Assets.xcassets in Resources */,
+				92F4A98C20ADEDF40000E6EC /* nssl0091.jpg in Resources */,
+				92F4A98520ADEDE30000E6EC /* nssl0041.jpg in Resources */,
 				92F4A95F20ADDC2C0000E6EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +190,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F4A99020ADF1F90000E6EC /* TableViewCell.swift in Sources */,
 				92F4A95C20ADDC2C0000E6EC /* ViewController.swift in Sources */,
 				92F4A95A20ADDC2C0000E6EC /* AppDelegate.swift in Sources */,
+				92F4A99220ADF2670000E6EC /* ShowImageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +331,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C4AG7H5XW;
 				INFOPLIST_FILE = StormViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.firstApp.shaikat.StormViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,7 +347,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6C4AG7H5XW;
 				INFOPLIST_FILE = StormViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.firstApp.shaikat.StormViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
